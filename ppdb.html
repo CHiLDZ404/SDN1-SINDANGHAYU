@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PPDB — SDN 1 Sindanghayu</title>
+  <meta name="description" content="Pendaftaran Peserta Didik Baru (PPDB) SDN 1 Sindanghayu.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">SDN 1 Sindanghayu</a>
+      <button class="nav-toggle" aria-label="Buka navigasi" id="navToggle">☰</button>
+      <ul class="nav" id="navMenu">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="kurikulum.html">Kurikulum</a></li>
+        <li><a href="guru.html">Guru & Staf</a></li>
+        <li><a href="ekstrakurikuler.html">Ekstrakurikuler</a></li>
+        <li><a href="prestasi.html">Prestasi</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="pengumuman.html">Pengumuman</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+        <li class="cta"><a href="ppdb.html" class="button primary">PPDB</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero ppdb-hero">
+    <div class="container">
+      <h1>PPDB SDN 1 Sindanghayu</h1>
+      <p>Pendaftaran peserta didik baru tahun ajaran 2026/2027.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>Persyaratan</h2>
+        <ul class="list">
+          <li>Usia minimal sesuai ketentuan</li>
+          <li>Akta kelahiran</li>
+          <li>Kartu Keluarga</li>
+          <li>KTP orang tua/wali</li>
+          <li>Surat keterangan domisili (jika diperlukan)</li>
+        </ul>
+        <h2>Alur Pendaftaran</h2>
+        <ol class="list">
+          <li>Mengisi formulir online</li>
+          <li>Unggah berkas</li>
+          <li>Verifikasi sekolah</li>
+          <li>Pengumuman hasil</li>
+          <li>Daftar ulang</li>
+        </ol>
+      </div>
+      <div>
+        <h2>Formulir PPDB</h2>
+        <form class="form" id="ppdbForm" data-demo>
+          <div class="form-group">
+            <label>Nama Lengkap</label>
+            <input type="text" required placeholder="Nama siswa">
+          </div>
+          <div class="form-group">
+            <label>Tempat/Tanggal Lahir</label>
+            <input type="text" required placeholder="Ciamis, 01-01-2019">
+          </div>
+          <div class="form-group">
+            <label>Alamat</label>
+            <textarea required rows="3" placeholder="Alamat lengkap"></textarea>
+          </div>
+          <div class="form-group">
+            <label>Nama Orang Tua/Wali</label>
+            <input type="text" required placeholder="Nama orang tua/wali">
+          </div>
+          <div class="form-group">
+            <label>No. Telepon</label>
+            <input type="tel" required placeholder="08xxxxxxxxxx">
+          </div>
+          <button class="button primary" type="submit">Kirim Pendaftaran</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-bottom">© 2025 SDN 1 Sindanghayu</div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
